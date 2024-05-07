@@ -15,23 +15,6 @@ The main project challenges we try to achieve is:
 
 ## Neural Networks
 
-This are the neural networks we are currently using:
-
- - Speech-To-Text
-	 - [Vosk Speech Recognition Toolkit](https://github.com/alphacep/vosk-api) via [Vosk-rs](https://github.com/Bear-03/vosk-rs)
- - Text-To-Speech
-	 - [~~Silero TTS~~](https://github.com/snakers4/silero-models) *(currently not used)*
-	 - [~~Coqui TTS~~](https://github.com/coqui-ai/TTS) *(currently not used)*
-	 - [~~WinRT~~](https://github.com/ndarilek/tts-rs) *(currently not used)*
-	 - [~gTTS~](https://github.com/nightlyistaken/tts_rust) *(currently not used)*
-	 - [~~SAM~~](https://github.com/s-macke/SAM) *(currently not used)*
- - Wake Word
-	 - [Rustpotter](https://github.com/GiviMAD/rustpotter) *(Partially implemented, still WIP)*
-	 - [Picovoice Porcupine](https://github.com/Picovoice/porcupine) via [official SDK](https://github.com/Picovoice/porcupine#rust) *(requires API key)*
-	 - [Vosk Speech Recognition Toolkit](https://github.com/alphacep/vosk-api) via [Vosk-rs](https://github.com/Bear-03/vosk-rs) *(very slow)*
-	 - [~~Snowboy~~] *(currently not used)*
- - NLU
-	 - Nothing yet.
 - Chat
 	- [~~ChatGPT~~](https://chat.openai.com/) (coming soon)
 
@@ -47,16 +30,12 @@ You need only Rust and NodeJS installed on your system.<br>
 Other than that, all you need is to install all the dependencies and then compile the code with `cargo tauri build` command.<br>
 Or run dev with `cargo tauri dev`.
 
-<br><br>
-*Thought you might need some of the platform specific libraries for [PvRecorder](https://github.com/Picovoice/pvrecorder) and [Vosk](https://github.com/alphacep/vosk-api).*
-
 ## Author
 
 Vlaunest limited
 
 ## Python version?
-Old version of Jarvis was built with Python.<br>
-The last Python version commit can be found [here](https://github.com/Priler/jarvis/tree/943efbfbdb8aeb5889fa5e2dc7348ca4ea0b81df).
+Old version of Jarvis was built with Python.
 
 ## License
 
