@@ -52,7 +52,7 @@ Or run dev with `cargo tauri dev`.
 
 ## Author
 
-Abraham Tugalov
+Vlaunest limited
 
 ## Python version?
 Old version of Jarvis was built with Python.<br>
