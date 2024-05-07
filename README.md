@@ -1,6 +1,7 @@
 # JARVIS Voice Assistant
 
-![We are NOT limited by the technology of our time!](poster.jpg)
+![poster](https://github.com/Vlaunest777/J.A.R.V.I.S.-by-Vlaunest/assets/143882217/ce2d21f0-7a03-4596-86c5-b4426c0b84f8)
+
 
 `Jarvis` - is a voice assistant made as an experiment using neural networks for things like **STT/TTS/Wake Word/NLU** etc.
 
